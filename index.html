@@ -1,11 +1,236 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Open+Sans">
   <meta charset="UTF-8">
-  <title>Welcome to My Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asimmetria</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Cosa è poppin ?!</h1>
-  <p>Ma che ne sapete voi, Carlo sta tutto down bad. Kisses :***.</p>
+
+  <!-- Menu hamburger -->
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  <nav id="menu" class="hidden">
+    <a href="#chi-siamo">CHI SIAMO</a>
+    <a href="#LE-NOSTRE-PROPOSTE">LE NOSTRE PROPOSTE</a>
+    <a href="#APPUNTI">APPUNTI</a>
+    <a href="#SEMINARI">SEMINARI</a>
+    <a href="#PROSSIMI-EVENTI">PROSSIMI-EVENTI</a>
+    <a href="#BACHECA">BACHECA</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+
+  <header class="hero">
+  <div class="hero-text">
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo Asimmetria">
+    </div>
+    <h1>ASIMMETRIA</h1>
+    <p>Dagli studenti, per gli studenti.</p>
+</header>
+
+
+
+
+ <section id="chi-siamo" class="sectiongreen">
+    <h2>Chi siamo</h2>
+    <div class="sottosezione">
+      <p> Asimmetria é una lista fondata su ,,,, bla bla bla.</p>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Sara e Edoardo</p>
+          <p>22/04/2025</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Sara e Edoardo</p>
+          <p>22/04/2025</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Sara e Edoardo</p>
+          <p>22/04/2025</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Sara e Edoardo</p>
+          <p>22/04/2025</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Sara e Edoardo</p>
+          <p>22/04/2025</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Sara e Edoardo</p>
+          <p>22/04/2025</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img2.jpg" alt="Foto 2">
+          <p>Didascalia 2</p>
+        </div>
+      </div>
+   </section> 
+
+  <section id="LE-NOSTRE-PROPOSTE" class="sectionwhite">
+    <h2>LE NOSTRE PROPOSTE</h2>
+    <div class="sottosezione">
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="d78aabfe-9473-43bc-861b-21e1e1b9839d.png" alt="Foto 1">
+          <p>Abbattimento barriere architettoniche e potenziamento degli spazi esterni.</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Aggiunte di lavagna nei corridoi.</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Drive con appunti condivisi.</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Miglioramento dei servizi igenici,</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Mantenimento dell'interruzione per la pausa pranzo e apertura delle sedi.</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Banca del tempo.</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img2.jpg" alt="Foto 2">
+          <p>Sessione di laurea utile per il dottorato.</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img2.jpg" alt="Foto 2">
+          <p>Organizzazione di seminari informativi riguardanti il dottorato.</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img2.jpg" alt="Foto 2">
+          <p>Organizzazione di tornei ed eventi sportivi.</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img2.jpg" alt="Foto 2">
+          <p>Gara studentesche.</p>
+        </div><div class="gallery-item">
+          <img src="img2.jpg" alt="Foto 2">
+          <p>Creazione di gadget personalizzati.</p>
+        </div>
+      </div>
+   </section> 
+
+  <section id="APPUNTI" class="sectiongreen">
+    <h2>APPUNTI</h2>
+    <p>Contenuto della sezione 4...</p>
+  </section>
+
+  <section id="SEMINARI" class="sectionwhite">
+    <h2>Seminari di matematica e fisica a Roma</h2>
+    <p>Contenuto della sezione 5...</p>
+  </section>
+  
+  <section id="PROSSIMI-EVENTI" class="sectiongreen">
+    <h2>PROSSIMI EVENTI</h2>
+    <p>Email: <a href="mailto:info@asimmetria.it">info@asimmetria.it</a></p>
+  </section>
+  
+  
+  <section id="BACHECA" class="sectionwhite">
+    <h2>Bacheca vincitori</h2>
+    <div class="sottosezione">
+      <h3>Torneo biliardino</h3>
+      <p> Regolamento torneo biliardino, a seguire tutti i vincitori delle edizioni.</p>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Sara e Edoardo</p>
+          <p>22/04/2025</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Sara e Edoardo</p>
+          <p>22/04/2025</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Sara e Edoardo</p>
+          <p>22/04/2025</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Sara e Edoardo</p>
+          <p>22/04/2025</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Sara e Edoardo</p>
+          <p>22/04/2025</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Sara e Edoardo</p>
+          <p>22/04/2025</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img2.jpg" alt="Foto 2">
+          <p>Didascalia 2</p>
+        </div>
+      </div>
+      
+    <div class="sottosezione">
+      <h3>Quizzone</h3>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="img1.jpg" alt="Foto 1">
+          <p>Didascalia </p>
+        </div>
+        <div class="gallery-item">
+          <img src="img2.jpg" alt="Foto 2">
+          <p>Didascalia 2</p>
+        </div>
+      </div>
+    
+  </section>
+  
+  <section id="contatti" class="sectiongreen">
+    <h2>Contatti</h2>
+    <p>Email: <a href="mailto:info@asimmetria.it">info@asimmetria.it</a></p>
+  </section>
+
+  <footer>
+    <p>© Asimmetria</p>
+  </footer>
+
+  <script>
+  const menu = document.getElementById("menu");
+  const toggle = document.querySelector(".menu-toggle");
+
+  function toggleMenu() {
+    menu.classList.toggle("hidden");
+  }
+
+  // Chiudi menu quando clicchi fuori
+  document.addEventListener("click", function (e) {
+    const isClickInside = menu.contains(e.target) || toggle.contains(e.target);
+    if (!isClickInside) {
+      menu.classList.add("hidden");
+    }
+  });
+
+  // Chiudi menu quando clicchi su un link
+  document.querySelectorAll("#menu a").forEach(link => {
+    link.addEventListener("click", () => {
+      menu.classList.add("hidden");
+    });
+  });
+</script>
+  
 </body>
 </html>
