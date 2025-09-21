@@ -100,6 +100,12 @@ nav a {
   background-color: #fff;
 }
 
+/* Divisore banda verde */
+.divisore {
+  background-color: green;
+  height: 3vh;   /* 3% dell’altezza della finestra */
+  width: 100%;
+}
 
 
 /* Galleria immagini */
